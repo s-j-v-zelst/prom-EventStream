@@ -9,6 +9,7 @@ import javax.swing.JComponent;
 import org.jfree.chart.ChartPanel;
 import org.processmining.stream.util.views.DynamicTimeSeriesBarChart;
 
+@Deprecated
 public class XSEventStreamToXLogView extends JComponent {
 
 	/**

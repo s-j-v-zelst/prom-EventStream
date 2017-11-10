@@ -4,6 +4,7 @@ import org.deckfour.xes.model.XLog;
 import org.processmining.eventstream.core.interfaces.XSEvent;
 import org.processmining.stream.core.interfaces.XSReader;
 
+@Deprecated // refactored to StreamBasedEventLog
 public interface XSEventStreamToXLogReader extends XSReader<XSEvent, XLog> {
 
 	/**
